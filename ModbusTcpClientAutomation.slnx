@@ -1,6 +1,0 @@
-<Solution>
-  <Folder Name="/Tests/">
-    <Project Path="Tests/ModbusTcpClientAutomation.Tests/ModbusTcpClientAutomation.Tests.csproj" />
-  </Folder>
-  <Project Path="ModbusTcpClientAutomation.csproj" />
-</Solution>

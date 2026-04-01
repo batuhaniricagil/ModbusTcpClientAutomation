@@ -41,20 +41,27 @@ The automation is controlled entirely by an `appsettings.json` file located in t
 - **SlaveId**: Standard Modbus Slave/Unit Identifier.
 - **Commands**: An array of commands to execute in precise sequence. Each command defines which zero-indexed `CoilAddress` to write to and the concrete boolean `Value` (`true` or `false`) to send.
 
+## Project Structure
+
+The project is organized into the following structure:
+
+- **ImplementationFolder/**: Contains the core application logic, subcomponents, and the main project file (`ModbusTcpClientAutomation.csproj`).
+  - **Core/**: Domain models and business logic.
+  - **Application/**: Service layers and application flow.
+  - **Infrastructure/**: Modbus client implementations and external integrations.
+- **testFolder/**: Contains all test projects and test files.
+- **main.sln**: The main solution file for the entire project.
+
 ## Usage
 
-You can launch the application directly from PowerShell. Ensure you are in the directory containing the application and the `appsettings.json` file.
-
-Type the following command into PowerShell to start the app:
+You can launch the application directly from PowerShell. If you are running from the source code during development, you can use the following command from the root directory:
 
 ```powershell
-.\ModbusTcpClientAutomation.exe
+dotnet run --project ImplementationFolder/ModbusTcpClientAutomation.csproj
 ```
 
-*(Note: If you are running from the source code during development, you use `dotnet run`)*
-
 Once launched, the application will:
-1. Load your configuration dynamically.
+1. Load your configuration dynamically from `ImplementationFolder/appsettings.json`.
 2. Connect cleanly to the target endpoint.
 3. Automatically execute the prescribed commands, predictably applying the `SettlingDelayMs` delay after each command.
 4. Smoothly disconnect upon completion.
