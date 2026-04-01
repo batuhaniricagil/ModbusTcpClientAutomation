@@ -71,3 +71,8 @@ Once launched, the application will:
 During execution, the application outputs its live progress directly to the standard command line interface (stdout). You will see exactly what it is doing, including execution events, command transaction timestamps, and exact device response successes or failures right in your PowerShell window.
 
 Additionally, every single action printed to the screen is permanently recorded and appended into a text file named **`modbus_actions.log`**. This master file resides right next to the app enabling simple post-action verification tracing without needing to keep the terminal open.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for details on the open source software used in this project.
