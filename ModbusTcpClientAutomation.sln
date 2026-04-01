@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusTcpClientAutomation", "src\ModbusTcpClientAutomation.csproj", "{A71F763E-317A-4C0E-878F-F3AFAD069073}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0AB3BF05-4346-4AA6-1389-037BE0695223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusTcpClientAutomation.Tests", "tests\ModbusTcpClientAutomation.Tests\ModbusTcpClientAutomation.Tests.csproj", "{A1547139-55CF-48AB-911A-D951D39FEFAC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModbusTcpClientAutomation.Tests", "Tests\ModbusTcpClientAutomation.Tests\ModbusTcpClientAutomation.Tests.csproj", "{A1547139-55CF-48AB-911A-D951D39FEFAC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
