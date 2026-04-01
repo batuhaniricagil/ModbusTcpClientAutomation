@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace CwcuClientTestApp.Core
+namespace ModbusTcpClientAutomation.Core
 {
     public class ModbusCommand
     {

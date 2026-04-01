@@ -48,7 +48,7 @@ You can launch the application directly from PowerShell. Ensure you are in the d
 Type the following command into PowerShell to start the app:
 
 ```powershell
-.\CwcuClientTestApp.exe
+.\ModbusTcpClientAutomation.exe
 ```
 
 *(Note: If you are running from the source code during development, you use `dotnet run`)*

@@ -22,7 +22,7 @@
 
 
   <ItemGroup>
-    <ProjectReference Include="..\..\CwcuClientTestApp.csproj" />
+    <ProjectReference Include="..\..\ModbusTcpClientAutomation.csproj" />
   </ItemGroup>
 
 </Project>

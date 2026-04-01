@@ -1,9 +1,9 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using CwcuClientTestApp.Core;
+using ModbusTcpClientAutomation.Core;
 
-namespace CwcuClientTestApp.Application
+namespace ModbusTcpClientAutomation.Application
 {
     public class CoilWriteWorkflow : IAutomationWorkflow
     {

@@ -1,11 +1,11 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using CwcuClientTestApp.Core;
-using CwcuClientTestApp.Infrastructure;
-using CwcuClientTestApp.Application;
+using ModbusTcpClientAutomation.Core;
+using ModbusTcpClientAutomation.Infrastructure;
+using ModbusTcpClientAutomation.Application;
 
-namespace CwcuClientTestApp
+namespace ModbusTcpClientAutomation
 {
     class Program
     {

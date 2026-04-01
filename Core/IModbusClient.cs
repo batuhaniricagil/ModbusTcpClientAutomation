@@ -1,7 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace CwcuClientTestApp.Core
+namespace ModbusTcpClientAutomation.Core
 {
     public interface IModbusClient
     {

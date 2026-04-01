@@ -1,8 +1,8 @@
 using System;
 using System.IO;
-using CwcuClientTestApp.Core;
+using ModbusTcpClientAutomation.Core;
 
-namespace CwcuClientTestApp.Infrastructure
+namespace ModbusTcpClientAutomation.Infrastructure
 {
     public class FileLogger : ILogger
     {

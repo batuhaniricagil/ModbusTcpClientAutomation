@@ -2,10 +2,10 @@ using System;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using CwcuClientTestApp.Core;
+using ModbusTcpClientAutomation.Core;
 using NModbus;
 
-namespace CwcuClientTestApp.Infrastructure
+namespace ModbusTcpClientAutomation.Infrastructure
 {
     public class NModbusClient : IModbusClient, IDisposable
     {

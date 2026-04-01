@@ -1,4 +1,4 @@
-namespace CwcuClientTestApp.Core
+namespace ModbusTcpClientAutomation.Core
 {
     public interface ILogger
     {

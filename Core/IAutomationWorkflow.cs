@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace CwcuClientTestApp.Core
+namespace ModbusTcpClientAutomation.Core
 {
     public interface IAutomationWorkflow
     {

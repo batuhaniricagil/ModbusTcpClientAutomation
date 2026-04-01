@@ -2,10 +2,10 @@ using System.IO;
 using System.Text.Json;
 using Moq;
 using NUnit.Framework;
-using CwcuClientTestApp.Core;
-using CwcuClientTestApp.Infrastructure;
+using ModbusTcpClientAutomation.Core;
+using ModbusTcpClientAutomation.Infrastructure;
 
-namespace CwcuClientTestApp.Tests
+namespace ModbusTcpClientAutomation.Tests
 {
     [TestFixture]
     public class JsonConfigProviderTests
