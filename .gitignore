@@ -1,0 +1,32 @@
+[Bb]in/
+[Oo]bj/
+[Pp]ublish*/
+publish-ready/
+publish-win/
+*.log
+modbus_actions.log
+[Tt]est[Rr]esults/
+
+# Mac OS X
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
