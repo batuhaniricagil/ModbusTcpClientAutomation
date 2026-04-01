@@ -1,7 +1,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace ModbusTcpClientAutomation.Core
+namespace ModbusTcpClientAutomation.Interfaces
 {
     public interface IModbusClient
     {

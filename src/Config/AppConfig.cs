@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace ModbusTcpClientAutomation.Core
+namespace ModbusTcpClientAutomation.Config
 {
     public class ModbusCommand
     {

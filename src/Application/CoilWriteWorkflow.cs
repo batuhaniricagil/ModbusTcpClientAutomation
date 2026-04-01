@@ -1,7 +1,8 @@
 using System;
 using System.Threading;
 using System.Threading.Tasks;
-using ModbusTcpClientAutomation.Core;
+using ModbusTcpClientAutomation.Interfaces;
+using ModbusTcpClientAutomation.Config;
 
 namespace ModbusTcpClientAutomation.Application
 {

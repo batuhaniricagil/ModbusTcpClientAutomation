@@ -1,7 +1,8 @@
 using System;
 using System.IO;
 using System.Text.Json;
-using ModbusTcpClientAutomation.Core;
+using ModbusTcpClientAutomation.Interfaces;
+using ModbusTcpClientAutomation.Config;
 
 namespace ModbusTcpClientAutomation.Infrastructure
 {

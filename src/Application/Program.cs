@@ -1,11 +1,13 @@
 using System;
 using System.Threading.Tasks;
 using Microsoft.Extensions.DependencyInjection;
-using ModbusTcpClientAutomation.Core;
+using ModbusTcpClientAutomation.Interfaces;
 using ModbusTcpClientAutomation.Infrastructure;
 using ModbusTcpClientAutomation.Application;
+using ModbusTcpClientAutomation.Config;
+using ModbusTcpClientAutomation.Modbus;
 
-namespace ModbusTcpClientAutomation
+namespace ModbusTcpClientAutomation.Application
 {
     class Program
     {

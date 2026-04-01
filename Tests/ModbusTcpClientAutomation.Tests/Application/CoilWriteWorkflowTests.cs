@@ -3,10 +3,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using Moq;
 using NUnit.Framework;
-using ModbusTcpClientAutomation.Core;
+using ModbusTcpClientAutomation.Interfaces;
+using ModbusTcpClientAutomation.Config;
 using ModbusTcpClientAutomation.Application;
 
-namespace ModbusTcpClientAutomation.Tests
+namespace ModbusTcpClientAutomation.Tests.Application
 {
     [TestFixture]
     public class CoilWriteWorkflowTests

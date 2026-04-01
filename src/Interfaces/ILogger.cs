@@ -1,4 +1,4 @@
-namespace ModbusTcpClientAutomation.Core
+namespace ModbusTcpClientAutomation.Interfaces
 {
     public interface ILogger
     {

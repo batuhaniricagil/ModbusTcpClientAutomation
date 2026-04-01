@@ -2,10 +2,10 @@ using System;
 using System.Net.Sockets;
 using System.Threading;
 using System.Threading.Tasks;
-using ModbusTcpClientAutomation.Core;
+using ModbusTcpClientAutomation.Interfaces;
 using NModbus;
 
-namespace ModbusTcpClientAutomation.Infrastructure
+namespace ModbusTcpClientAutomation.Modbus
 {
     public class NModbusClient : IModbusClient, IDisposable
     {

@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 
-namespace ModbusTcpClientAutomation.Core
+namespace ModbusTcpClientAutomation.Interfaces
 {
     public interface IAutomationWorkflow
     {
