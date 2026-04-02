@@ -11,10 +11,14 @@ namespace ModbusTcpClientAutomation.Infrastructure
         private readonly string _configPath;
         private readonly ILogger _logger;
 
-        public JsonConfigProvider(ILogger logger, string configPath = "appsettings.json")
+        public JsonConfigProvider(ILogger logger, string configPath = "Config/appsettings.json")
         {
             _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-            _configPath = configPath;
+            
+            // Resolve path relative to the application's base directory if not absolute
+            _configPath = Path.IsPathRooted(configPath) 
+                ? configPath 
+                : Path.Combine(AppDomain.CurrentDomain.BaseDirectory, configPath);
         }
 
         public AppConfig GetConfig()

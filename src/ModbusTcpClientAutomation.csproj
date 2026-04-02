@@ -22,7 +22,6 @@
   <ItemGroup>
     <None Update="Config/appsettings.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      <Link>appsettings.json</Link>
     </None>
     <None Update="README.md">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
