@@ -30,3 +30,7 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
+
+# Local .NET 9 Installation
+dotnet-install.sh
+dotnet9_sdk/

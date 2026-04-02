@@ -45,23 +45,25 @@ The automation is controlled entirely by an `appsettings.json` file located in t
 
 The project is organized into the following structure:
 
-- **ImplementationFolder/**: Contains the core application logic, subcomponents, and the main project file (`ModbusTcpClientAutomation.csproj`).
-  - **Core/**: Domain models and business logic.
-  - **Application/**: Service layers and application flow.
-  - **Infrastructure/**: Modbus client implementations and external integrations.
-- **testFolder/**: Contains all test projects and test files.
-- **main.sln**: The main solution file for the entire project.
+- **src/**: Contains the core application logic, subcomponents, and the main project file (`ModbusTcpClientAutomation.csproj`).
+  - **Application/**: Service layers and the main entry point logic.
+  - **Config/**: Configuration models and providers for `appsettings.json`.
+  - **Infrastructure/**: Shared logging and data persistence implementations.
+  - **Interfaces/**: Common abstractions and interface definitions.
+  - **Modbus/**: Specialized Modbus protocol client implementations.
+- **tests/**: Contains all test projects and unit test suites.
+- **ModbusTcpClientAutomation.sln**: The main solution file for the entire project.
 
 ## Usage
 
 You can launch the application directly from PowerShell. If you are running from the source code during development, you can use the following command from the root directory:
 
 ```powershell
-dotnet run --project ImplementationFolder/ModbusTcpClientAutomation.csproj
+dotnet run --project src/ModbusTcpClientAutomation.csproj
 ```
 
 Once launched, the application will:
-1. Load your configuration dynamically from `ImplementationFolder/appsettings.json`.
+1. Load your configuration dynamically from `appsettings.json`.
 2. Connect cleanly to the target endpoint.
 3. Automatically execute the prescribed commands, predictably applying the `SettlingDelayMs` delay after each command.
 4. Smoothly disconnect upon completion.
